@@ -1,0 +1,93 @@
+/*Cookies section styling*/
+.cookies-section {
+	display: none;
+	background: #6d6d6d;
+	position: fixed;
+    z-index: 5555;
+    display: block;
+    bottom: 0;
+    width: 100%;
+}
+.items-wrap {
+	max-width: 75%;
+	margin: 0 auto;
+	padding: 25px 0;
+	display: flex;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.items-wrap div {
+	margin-right: 20px;
+	color: #fff;
+}
+.section-img img {
+	max-width: 100%
+	width: 32px; 
+}
+.section-button a.accept-button {
+	padding: 7px 32px 7px;
+	background: #1e1e1c;
+	text-transform: uppercase;
+	color: #fff;
+	border: 1px solid #1e1e1c;
+	transition: all ease-in-out 250ms;
+    -webkit-transition: all ease-in-out 250ms;
+    -moz-transition: all ease-in-out 250ms;
+}
+.section-button a.accept-button:hover {
+	color: #1e1e1c;
+	background: #fff;
+}
+.section-message a {
+	color: #1e1e1c;
+	transition: all ease-in-out 250ms;
+    -webkit-transition: all ease-in-out 250ms;
+    -moz-transition: all ease-in-out 250ms;
+    font-weight: bold;
+}
+.section-message a:hover {
+	color: #fff;
+}
+.cookies-section img.close-button {
+	opacity: .8;
+	transition: all ease-in-out 250ms;
+    -webkit-transition: all ease-in-out 250ms;
+    -moz-transition: all ease-in-out 250ms;
+}
+.cookies-section img.close-button:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+@media screen and (max-width: 768px) {
+	.items-wrap {
+		flex-wrap: wrap; 
+		position: relative;
+	}
+	.items-wrap div {
+		margin-right: 0;
+		padding: 0 5px;
+	}
+	.section-img {
+		width: 15%;
+	}
+	.section-message {
+		width: 85%;
+	}
+	.section-button {
+		width: 100%;
+    	text-align: center;
+    	margin-top: 15px;
+	}
+	img.close-button {
+		position: absolute;
+	    top: 32px;
+	    right: -32px;
+	}
+
+
+}
