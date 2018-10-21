@@ -1,6 +1,7 @@
 <?php
 /*
 Plugin Name: Set Custom Cookies
+Plugin URI: https://github.com/roma-i/set-cookies.git
 Description: Adding custom Cookies to website.
 Version: 1.0
 Author: Roman I.
